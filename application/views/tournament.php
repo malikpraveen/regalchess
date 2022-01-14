@@ -6,7 +6,7 @@
     </div>
 
     <div class="content">
-       <div class="card mb-2">
+       <div class="card mb-4">
             <div class="card-header mb-4">
                <h5 class="card-title">Add New Tournament</h5>
            </div>
@@ -66,7 +66,7 @@
                     <div class="row mt-4" style="margin-right: 5px;">
                         <div class="col-md-10">
                             <div class="form-group">
-                                <textarea class="form-control validate" cols="3" maxlength="250" name="description" rows="3" placeholder="Add description"></textarea>
+                                <textarea class="form-control validate" cols="6" rows="6" cols="3" maxlength="250" name="description" rows="3" placeholder="Add description"></textarea>
                                 <p class="text-danger" id="descriptionError"></p>
                             </div>
                         </div>

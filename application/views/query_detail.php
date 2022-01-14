@@ -51,7 +51,7 @@
                                     <div class="card card-body">
                                         <label>Your Message</label>
                                         <textarea class="form-control" cols="6" rows="6" placeholder="Write here...."></textarea>
-                                        <div class="mt-4 mb-4 text-right"> <a href="#" class="composemail">Cancel</a>  <a href="#" class="composemail">Send</a> 
+                                        <div class="mt-4 mb-4 text-right"> <a href="#" id='hide' class="composemail">Cancel</a>  <a href="#" class="composemail">Send</a> 
                                         </div>
                                     </div>
                                 </div>
@@ -63,3 +63,4 @@
         </div>
     </div>
     <?php include 'include/footer.php';?>
+    

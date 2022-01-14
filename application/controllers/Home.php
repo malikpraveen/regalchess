@@ -35,6 +35,22 @@ class Home extends CI_Controller {
 	 {
 		 $this->load->view('quiz-rule');
 	 }
+	 public function quiz_rule_detail()
+	 {
+		 $this->load->view('quiz-rule-detail');
+	 }
+	 public function content_list()
+	 {
+       $this->load->view('content-list');
+	 }
+	 public function transaction_list()
+	 {
+		 $this->load->view('transaction-list');
+	 }
+	 public function content_detail()
+	 {
+		 $this->load->view('content-detail');
+	 }
 	public function forgot()
 	{
 		$this->load->view('forgot');
@@ -104,6 +120,10 @@ class Home extends CI_Controller {
      {
 	$this->load->view('compose_new');
      } 
+	 public function advertisement_list()
+	 {
+		 $this->load->view('advertisement-list');
+	 }
 	
 
 

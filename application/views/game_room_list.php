@@ -6,7 +6,7 @@
     </div>
 
     <div class="content">
-       <div class="card mb-2">
+       <div class="card mb-4">
             <div class="card-header mb-4">
                <h5 class="card-title">Add New Game Room</h5>
            </div>

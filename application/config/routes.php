@@ -72,12 +72,15 @@ $route['token-purchase-list'] = 'home/token_purchase_list';
 $route['token-detail'] = 'home/token_detail';
 $route['quiz-rule'] = 'home/quiz_rule';
 $route['tournament-detail'] = 'home/tournament_detail';
-
-
+$route['quiz-rule-detail'] = 'home/quiz_rule_detail';
+$route['content-list'] = 'home/content_list';
+$route['content-detail'] = 'home/content_detail';
 $route['notification-detail'] = 'home/notification_detail';
 $route['query-list'] = 'home/query_list';
 $route['query-detail'] = 'home/query_detail';
 $route['compose-new'] = 'home/compose_new';
+$route['transaction-list'] = 'home/transaction_list';
+$route['advertisement-list'] = 'home/advertisement_list';
 
 
 

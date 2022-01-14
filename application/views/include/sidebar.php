@@ -25,9 +25,9 @@
             </li> -->
             <li> <a href="<?php echo site_url('token-purchase-list');?>">  <img src="<?php echo site_url();?>common/images/sideimg/token.png"  alt="Token Purchase"> <span>Token Purchase Management</span></a></li> 
             <li> <a href="<?php echo site_url('video-list');?>">  <img src="<?php echo site_url();?>common/images/sideimg/referral.png"  alt="Video list"> <span>Referral Management</span></a></li>
-            <li> <a href="<?php echo site_url('category-list');?>">  <img src="<?php echo site_url();?>common/images/sideimg/advertisement.png"  alt="Category list"> <span>Advertisement Management</span></a></li>
-            <li> <a href="<?php echo site_url('report-list');?>">  <img src="<?php echo site_url();?>common/images/sideimg/transaction.png"  alt="Report list"> <span>Transaction Management</span></a></li> 
-            <li> <a href="<?php echo site_url('report-list');?>">  <img src="<?php echo site_url();?>common/images/sideimg/content.png"  alt="Report list"> <span>Content Management</span></a></li>  
+            <li> <a href="<?php echo site_url('advertisement-list');?>">  <img src="<?php echo site_url();?>common/images/sideimg/advertisement.png"  alt="Category list"> <span>Advertisement Management</span></a></li>
+            <li> <a href="<?php echo site_url('transaction-list');?>">  <img src="<?php echo site_url();?>common/images/sideimg/transaction.png"  alt="Report list"> <span>Transaction Management</span></a></li> 
+            <li> <a href="<?php echo site_url('content-list');?>">  <img src="<?php echo site_url();?>common/images/sideimg/content.png"  alt="Report list"> <span>Content Management</span></a></li>  
 
             <!-- <li class="treeview"> <a href="#"> <img src="<?php echo site_url();?>common/images/sideimg/attributes.png" alt="Notification Management"> <span>Content Management</span> <span class="pull-right-container"> <i class="fa fa-angle-left pull-right"></i> </span> </a>
                 <ul class="treeview-menu">

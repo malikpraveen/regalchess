@@ -6,15 +6,15 @@
     </div>
 
     <div class="content">
-       <div class="card mb-2">
+       <div class="card mb-4">
             <div class="card-header mb-4">
                <h5 class="card-title">Add New Rule</h5>
            </div>
            <div class="card-body" >
               <form method="POST"  enctype="multipart/form-data" action="{{url('admin/subscription/submit')}}" >
-                  <div class="col-md-3 text-right" style="max-width: 100%;">
+                  <!-- <div class="col-md-3 text-right" style="max-width: 100%;">
                       <input type="button" class="btn btn-primary" value="+" onclick="addMoreAttribute();">
-                  </div>
+                  </div> -->
                   <div class="row" id="tableDiv" >
                     <div class="col-md-10 offset-1" >
                         <table class="table table-bordered" id="attribute1">
@@ -66,9 +66,9 @@
          </div>
        </div>
 
-        <!-- <div class="card mb-4">
+        <div class="card mb-4">
             <div class="card-header mb-4">
-                <h5 class="card-title">Game Room List</h5>
+                <h5 class="card-title">Rule List</h5>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
@@ -76,10 +76,7 @@
                         <thead>
                             <tr>
                                 <th>Sr. No.</th>
-                                <th> Room Name</th>
-                                <th>Entry Fee (Token)</th>
-                                <th>Price (Token)</th>
-                                <th>Description</th>
+                                <th> Rules</th>
                                 <th>Status</th>  
                                 <th>Action</th> 
                             </tr>
@@ -87,32 +84,26 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>ankit</td>
-                                <td>22</td>
-                                <td>231</td>
-                                <td>dummy data</td>
+                                <td>Rule 1</td>
                                 <td> <div class="mytoggle">
                                             <label class="switch">
                                              <input type="checkbox" checked=""> <span class="slider round"></span> </label>
                                           </div></td>
                               
-                                <td><a href="<?php echo site_url('game-detail');?>" class="composemail"><i class="fa fa-eye"></i></a>
+                                <td><a href="<?php echo site_url('quiz-rule-detail');?>" class="composemail"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="composemail"><i class="fa fa-edit"></i></a>
                             
                               </td> 
                             </tr>
                             <tr>
-                                <td>1</td>
-                                <td>ankit</td>
-                                <td>22</td>
-                                <td>231</td>
-                                <td>dummy data</td>
+                                <td>2</td>
+                                <td>Rule 1</td>
                                 <td> <div class="mytoggle">
                                             <label class="switch">
                                              <input type="checkbox" checked=""> <span class="slider round"></span> </label>
                                           </div></td>
                               
-                                <td><a href="#" class="composemail"><i class="fa fa-eye"></i></a>
+                                <td><a href="<?php echo site_url('quiz-rule-detail');?>" class="composemail"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="composemail"><i class="fa fa-edit"></i></a>
                             
                               </td> 
@@ -121,7 +112,7 @@
                     </table>
                 </div>
             </div>
-        </div>   -->
+        </div>  
     </div>
     <?php include 'include/footer.php';?>
     <script>
@@ -133,7 +124,7 @@
                 $("#attribute"+attribute_id+" tbody").append(row);
             }
     </script>
-    <script>
+    <!-- <script>
           function addMoreAttribute(){
               
                 var tableCount=$("#tableDiv .col-md-10"); 
@@ -154,7 +145,7 @@
                 
                 $("#tableDiv").append(table);
             }
-    </script>
+    </script> -->
     <script>
           function addMoreQuestion(){
               

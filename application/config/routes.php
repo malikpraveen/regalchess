@@ -81,6 +81,7 @@ $route['query-detail'] = 'home/query_detail';
 $route['compose-new'] = 'home/compose_new';
 $route['transaction-list'] = 'home/transaction_list';
 $route['advertisement-list'] = 'home/advertisement_list';
+$route['referral-list'] = 'home/referral_list';
 
 
 

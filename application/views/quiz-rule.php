@@ -17,7 +17,7 @@
                   </div> -->
                   <div class="row" id="tableDiv" >
                     <div class="col-md-10 offset-1" >
-                        <table class="table table-bordered" id="attribute1">
+                        <table class="table" id="attribute1" style="  border-left: 6px solid #389DFB; background-color: lightgrey;" >
                                <thead>
                                   <tr>           
                                       <td colspan="3" id="attribute1_image_preview">
@@ -26,15 +26,15 @@
                                       </td>
                                     </tr>
                                     
-                                  <tr>
-                                      <td  colspan="2" >Question 1 <input type="button" class="btn btn-primary pull-right" value="Add Question" onclick="addMoreQuestion();"></td> 
+                                  <tr >
+                                      <td  colspan="2"  >Question 1 <input type="button" class="btn btn-primary pull-right" value="Add Question" onclick="addMoreQuestion();"></td> 
                                   </tr>
                                 
                                     <tr>
                                       <td colspan="2"><input type="text" class="form-control" placeholder="Enter Question" name="Question"></td>
                                   </tr>
                                 
-                                   <tr>
+                                   <tr >
                                       <td  colspan="2">Options</td>
                                    </tr>
                                 </thead>
@@ -151,7 +151,7 @@
               
                 var tableCount=$("#tableDiv .col-md-10"); 
                 var table='<div class="col-md-10 offset-1 ">'+
-                          '<table class="table table-bordered" id="attribute'+(parseInt(tableCount.length)+1)+'">'+
+                          '<table class="table table-bordered" style="  border-left: 6px solid #389DFB; background-color: lightgrey;" id="attribute'+(parseInt(tableCount.length)+1)+'">'+
                           '<thead>'+
                           '<tr><td  colspan="2">Question 1</td></tr>'+
                           '<tr>  <td colspan="2"><input type="text" class="form-control" placeholder="Enter Question" name="Question"></td></tr>'+

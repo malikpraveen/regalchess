@@ -1,5 +1,9 @@
 <?php include 'include/header.php';?>
     <?php include 'include/sidebar.php';?>
+    <script src="moment.min.js"></script>
+<script src="moment-timezone-with-data.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.3/moment-timezone-with-data.min.js"></script>
 <div class="content-wrapper">
     <div class="content-header sty-one">
         <h1>Tournament Management</h1> 
@@ -45,13 +49,17 @@
                                 <p class="text-danger" id="enddateError"></p>
                             </div>
                         </div>
-
+                        <div class="col-md-6">
+                            <div class="form-group">
+                               <select class="js-Selector form-control validate js-TimeUtc"></select>
+                            </div>
+                        </div>
                     </div>
                     <div class="row mb-4 " style="margin-right: 412px;">
                        <div class="col-md-12 mt-4">
                             <div class="" >
                                 <label><input type="radio" value="0" checked="checked" name="multiselect" id='frsradio'> Free</label>
-                                <br>
+                            &nbsp;&nbsp;
                                 <label><input type="radio" value="1" name="multiselect"  id='expradio'>Paid</label>
                             </div>
                         </div>
@@ -93,7 +101,7 @@
                                 <th> Tournament Name</th>
                                 <th>Player Size</th>
                                 <th>Free/Paid</th>
-                                <th>Winning Price</th>
+                                <th>Winning Prize</th>
                                 <th>Start Date Time</th>  
                                 <th>End Date Time</th> 
                                 <th>Description</th> 
@@ -157,3 +165,44 @@
     });
 });
     </script>
+<script>
+  const dateTimeUtc = moment("2017-06-05T19:41:03Z").utc();
+document.querySelector(".js-TimeUtc").innerHTML = dateTimeUtc.format("ddd, DD MMM YYYY HH:mm:ss");
+
+const selectorOptions = moment.tz.names()
+  .reduce((memo, tz) => {
+    memo.push({
+      name: tz,
+      offset: moment.tz(tz).utcOffset()
+    });
+    
+    return memo;
+  }, [])
+  .sort((a, b) => {
+    return a.offset - b.offset
+  })
+  .reduce((memo, tz) => {
+    const timezone = tz.offset ? moment.tz(tz.name).format('Z') : '';
+
+    return memo.concat(`<option value="${tz.name}">(GMT${timezone}) ${tz.name}</option>`);
+  }, "");
+
+document.querySelector(".js-Selector").innerHTML = selectorOptions;
+
+document.querySelector(".js-Selector").addEventListener("change", e => {
+  const timestamp = dateTimeUtc.unix();
+  const offset = moment.tz(e.target.value).utcOffset() * 60;
+  const dateTimeLocal = moment.unix(timestamp + offset).utc();
+
+  document.querySelector(".js-TimeLocal").innerHTML = dateTimeLocal.format("ddd, DD MMM YYYY HH:mm:ss");
+});
+
+document.querySelector(".js-Selector").value = "Europe/Madrid";
+
+const event = new Event("change");
+document.querySelector(".js-Selector").dispatchEvent(event);
+
+
+
+
+</script>

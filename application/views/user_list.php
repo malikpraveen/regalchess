@@ -40,7 +40,8 @@
                                     <tr>
                                         <th>Sr. No.</th>
                                         <th>User Name</th>
-                                        <th>Email</th>
+                                        <th>Email/Facebook</th>
+                                        <th>History</th>
                                         <th>Registered On</th>
                                         <th>status</th>  
                                         <th>Action</th> 
@@ -51,6 +52,7 @@
                                         <td>01</td>
                                         <td>Alex Smith</td>
                                         <td>AlexSmith@gmail.com</td>
+                                        <td></td>
                                         <td>10/07/2020</td>
                                         <td> <div class="mytoggle">
                                             <label class="switch">
@@ -63,6 +65,7 @@
                                         <td>01</td>
                                         <td>Alex Smith</td>
                                         <td>AlexSmith@gmail.com</td>
+                                        <td></td>
                                         <td>10/07/2020</td>
                                         <td> <div class="mytoggle">
                                             <label class="switch">
@@ -75,6 +78,7 @@
                                         <td>01</td>
                                         <td>Alex Smith</td>
                                         <td>AlexSmith@gmail.com</td>
+                                        <td></td>
                                         <td>10/07/2020</td>
                                         <td> <div class="mytoggle">
                                             <label class="switch">
@@ -87,6 +91,7 @@
                                         <td>01</td>
                                         <td>Alex Smith</td>
                                         <td>AlexSmith@gmail.com</td>
+                                        <td></td>
                                         <td>10/07/2020</td>
                                         <td> <div class="mytoggle">
                                             <label class="switch">
@@ -99,6 +104,7 @@
                                         <td>01</td>
                                         <td>Alex Smith</td>
                                         <td>AlexSmith@gmail.com</td>
+                                        <td></td>
                                         <td>10/07/2020</td>
                                         <td> <div class="mytoggle">
                                             <label class="switch">

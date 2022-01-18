@@ -21,7 +21,7 @@
                                 <p>100</p>
                             </div>
                             <div class="col-md-6">
-                                <label>Price (Token)</label>
+                                <label>prize (Token)</label>
                                 <p>200</p>
                             </div>
                         </div>

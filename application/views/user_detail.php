@@ -1,5 +1,6 @@
 <?php include 'include/header.php';?>
 <?php include 'include/sidebar.php';?>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 <div class="content-wrapper">
   <div class="content-header sty-one">
     <h1>User Detail</h1> 
@@ -50,8 +51,36 @@ alex123@gmail.com</span>
           </div>
         </div>
       </div>
+      <div class="col-lg-4 col-xs-6 m-b-3">
+        <div class="card">
+          <div class="card-body"><span class="info-box-icon bg-green"><i class='fas fa-chess-board'></i></span>
+            <div class="info-box-content"> <span class="info-box-number f-14">Total Game Room</span>  <span class="info-box-text">
+ 10</span> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-xs-6 m-b-3">
+        <div class="card">
+          <div class="card-body"><span class="info-box-icon bg-red"><i class='fas fa-coins'></i></span>
+            <div class="info-box-content"> <span class="info-box-number f-14">Total Token</span>  <span class="info-box-text">
+ 10000</span> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-xs-6 m-b-3">
+        <div class="card">
+          <div class="card-body"><span class="info-box-icon bg-yellow"><i class='fas fa-trophy'></i></span>
+            <div class="info-box-content"> <span class="info-box-number f-14">Total Tournamanet</span>  <span class="info-box-text">
+ 2</span> 
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- <!-- <div class="card mt-4">
+    
+    <!--  <div class="card mt-4">
       <div class="card-header mb-4">
         <h5 class="card-title">Uploaded Videos</h5>
       </div>

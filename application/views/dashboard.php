@@ -44,7 +44,8 @@ Total Tournament </span> </div>
                                     <tr>
                                         <th>Sr. No.</th>
                                         <th>User Name</th>
-                                        <th>Email</th>
+                                        <th>Email/Facebook</th>
+                                        <th>History</th>
                                         <th>Registered On</th>  
                                         <th>Status</th> 
                                         <th>Action</th> 
@@ -55,6 +56,7 @@ Total Tournament </span> </div>
                                         <td>01</td>
                                         <td>Alex Smith</td>
                                         <td>AlexSmith@gmail.com</td>
+                                        <td></td>
                                         <td>10/07/2020</td>
                                         <td>
                                           <div class="mytoggle">
@@ -68,6 +70,7 @@ Total Tournament </span> </div>
                                         <td>01</td>
                                         <td>Alex Smith</td>
                                         <td>AlexSmith@gmail.com</td>
+                                        <td></td>
                                         <td>10/07/2020</td>
                                         <td>
                                           <div class="mytoggle">
@@ -81,6 +84,7 @@ Total Tournament </span> </div>
                                         <td>01</td>
                                         <td>Alex Smith</td>
                                         <td>AlexSmith@gmail.com</td>
+                                        <td></td>
                                         <td>10/07/2020</td>
                                         <td>
                                           <div class="mytoggle">
@@ -94,6 +98,7 @@ Total Tournament </span> </div>
                                         <td>01</td>
                                         <td>Alex Smith</td>
                                         <td>AlexSmith@gmail.com</td>
+                                        <td></td>
                                         <td>10/07/2020</td>
                                         <td>
                                           <div class="mytoggle">
@@ -107,6 +112,7 @@ Total Tournament </span> </div>
                                         <td>01</td>
                                         <td>Alex Smith</td>
                                         <td>AlexSmith@gmail.com</td>
+                                        <td></td>
                                         <td>10/07/2020</td>
                                         <td>
                                           <div class="mytoggle">

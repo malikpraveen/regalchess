@@ -7,6 +7,10 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('index');
 	} 
+	public function referral_list()
+	{
+		$this->load->view('referral-list');
+	}
 	public function game_room_list()
 	{
 		$this->load->view('game_room_list');
